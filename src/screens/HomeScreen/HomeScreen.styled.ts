@@ -30,6 +30,7 @@ export const ProductContainer = styled.View`
   justify-content: space-between;
   flex: 1;
   align-items: center;
+  margin-top: 8px;
 `;
 
 export const ProductImage = styled.Image`

@@ -37,6 +37,7 @@ const AppNavigator = () => {
           name="Home"
           component={HomeScreen}
           options={{
+            title: 'Inicio',
             // eslint-disable-next-line react/no-unstable-nested-components
             tabBarIcon: ({focused}) => (
               <CenteredView>
@@ -55,6 +56,7 @@ const AppNavigator = () => {
           name="Cart"
           component={CartScreen}
           options={{
+            title: 'Sacola',
             // eslint-disable-next-line react/no-unstable-nested-components
             tabBarIcon: ({focused}) => (
               <CenteredView>
